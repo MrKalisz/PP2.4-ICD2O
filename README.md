@@ -1,35 +1,18 @@
 # Instructions  
 
-# Practice Problem 2.1
+**Use nested Ifs for all questions**
 
-1. The variable _num_ holds an integer from user input  Write a conditional statement that does the following:
+1.  Create a method called min() that takes in 3 integers.
+Return the smallest of the three integers.</br>
+</br>
 
-- If num is even (divisible by 2), print "__ is even"
-- If num is odd, print "__ is odd"
+2. Create a method called isLeapYear() that takes in an integer as a parameter. 
+Check if the year is a leap year. To figure out if it is a leap year follow the following steps.</br>
 
-Examples:
+		1. If the year is evenly divisible by 4 go to step 2. else go to step 4.
+		2. If the year is evenly divisible by 100 go to step 3. else go to step 5.
+		3. If the year is evenly divisible by 400 go to step 5. else go to step 4.
+		4. Not a leap year.
+		5. Is a leap year.
 
-```
-In: 23
-23 is odd
-```
-```
-In: 36
-36 is even
-```
-
-2. The variable _name_ holds a String from user input.  Write a conditional statement that does the following:
-
-- If name is equal to "Kalisz", print "teacher"
-- For any other input, print "student"
-
-Examples:
-
-```
-In: Kalisz
-teacher
-```
-```
-In: Faa
-student
-```
+Return true if the year is a leap year, false if it is not.
