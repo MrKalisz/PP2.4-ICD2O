@@ -2,11 +2,18 @@
 
 **Use nested Ifs for all questions**
 
-1.  Create a method called min() that takes in 3 integers.
-Return the smallest of the three integers.</br>
+1.  Accept 3 integers from input.
+Output the smallest of the three integers.</br>
+**Example:**</br>
+
+		In: 4
+		In: 5
+		In: 8
+		4
+
 </br>
 
-2. Create a method called isLeapYear() that takes in an integer as a parameter. 
+2. Accept an integer from input. 
 Check if the year is a leap year. To figure out if it is a leap year follow the following steps.</br>
 
 		1. If the year is evenly divisible by 4 go to step 2. else go to step 4.
@@ -15,4 +22,5 @@ Check if the year is a leap year. To figure out if it is a leap year follow the 
 		4. Not a leap year.
 		5. Is a leap year.
 
-Return true if the year is a leap year, false if it is not.
+Output "Is a leap year" when it is.</br>
+Output "Is not a leap year" when it is not.
