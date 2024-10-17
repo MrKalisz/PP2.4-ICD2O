@@ -2,6 +2,9 @@ import os.path
 import sys
 import PP2_4
 
+min: 6 test for different order, include pos, neg, 0s
+years: 40, 4, 1999, 400, 1996, 200, 2000, 0
+
 def test_q1_1(capsys):
 
 	try:
