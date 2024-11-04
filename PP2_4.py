@@ -2,7 +2,7 @@
 
 def q1(): 
   #Write Assignment code here
-
+j
 
 def q2(): 
   #Write Assignment code here
